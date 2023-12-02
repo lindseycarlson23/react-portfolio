@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Fragment } from "react";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import projects from "../utils/projects";
 
 function Portfolio() {
