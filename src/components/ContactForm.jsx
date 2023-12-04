@@ -1,6 +1,5 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { validateEmail } from '../utils/helpers';
 
 function ContactForm() {
 
