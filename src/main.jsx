@@ -7,7 +7,7 @@ import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
-import AboutMe from './pages/aboutme.jsx';
+import AboutMe from './pages/AboutMe.jsx';
 import Contact from './pages/Contact.jsx';
 import ResumePdf from './components/ResumePdf.jsx';
 
