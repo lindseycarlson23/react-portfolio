@@ -1,10 +1,12 @@
 import React from 'react';
-import resume from '../../public/images/resume.pdf';
+import resume from '../assets/resume.pdf';
 import { Document, Page, pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function ResumePdf() {
+    const [instance, updateInstance] = usePDF({ document: resume });
+
     return(
         <div className='res'>
             <h2 className='heading'></h2>
@@ -15,6 +17,7 @@ function ResumePdf() {
             >
                 <Page pageIndex={0}/>
             </Document>
+            
         </div>
     )
 }
