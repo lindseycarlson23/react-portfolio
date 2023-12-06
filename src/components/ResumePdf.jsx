@@ -5,8 +5,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 function ResumePdf() {
-    const [instance, updateInstance] = usePDF({ document: resume });
-
+    
     return(
         <div className='res'>
             <h2 className='heading'></h2>

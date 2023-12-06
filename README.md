@@ -18,7 +18,9 @@
   
   ## Usage
   
-  screen shot and URL
+  URL
+
+  ![alt text](public/images/reactportfolioscreenshot.png)
   
   ## License
     
