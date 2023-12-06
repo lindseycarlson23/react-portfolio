@@ -14,7 +14,11 @@ function ResumePdf() {
                 onLoadError={console.error}
                 style={{ width: '100vw', height: 'auto'}}
             >
-                <Page pageIndex={0}/>
+                <Page 
+                pageIndex={0}
+                renderAnnotationLayer={false}
+                renderTextLayer={false}
+                />
             </Document>
             
         </div>
