@@ -13,8 +13,8 @@ const projects = [
         title: "My Workouts",
         image: "/images/My Workouts screenshot.png",
         alt: "image of man lifting weights at a gym",
-        gitHubUrl: "https://github.com/lindseycarlson23/birthday-app",
-        deployedUrl: "https://lindseycarlson23.github.io/birthday-app/"
+        gitHubUrl: "https://github.com/lindseycarlson23/my-workouts",
+        deployedUrl: "https://my-workouts-c1e5314d5b06.herokuapp.com/"
     }
 ]
 
